@@ -79,14 +79,16 @@ section > .container{
   width: 60%;
   height: 165px;
   border: 1px dashed black;
-  margin: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   background-color: pink;
 }
 .col-small{
   width: 40%;
   height: 165px;
   border: 1px dashed black;
-  margin: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   background-color: blue;
 }
 
