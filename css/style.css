@@ -54,7 +54,7 @@ body {
     justify-content: space-between;
     border: 1px dashed black;
     align-items: center;
-    height: 100px;
+    height: 30px;
 }
 
 
@@ -77,8 +77,18 @@ section > .container{
 }
 .col-big{
   width: 60%;
+  height: 165px;
+  border: 1px dashed black;
+  margin: 20px;
+  background-color: pink;
 }
 .col-small{
   width: 40%;
+  height: 165px;
+  border: 1px dashed black;
+  margin: 20px;
+  background-color: blue;
 }
+
+
 
