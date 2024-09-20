@@ -15,6 +15,27 @@
   max-width: 100%;
 }
 
+/* #DEBUG */
+
+.debug{
+  background-color: brown;
+  margin: 2px dashed black;
+  padding: 5px;
+}
+
+.debug .debug{
+  background-color: red;
+}
+
+.debug .debug .debug{
+  background-color: coral;
+}
+
+.debug .debug .debug .debug{
+  background-color: pink;
+}
+
+
 body {
   background-color: white;
 }
@@ -42,10 +63,22 @@ body {
   margin: 20px;
 }
 
-.info-square:nth-child(odd){
+
+section:nth-child(odd){
   background-color: white;
 }
 
-.info-square:nth-child(even){
+section:nth-child(even){
   background-color: grey;
 }
+
+section > .container{
+  display: flex;
+}
+.col-big{
+  width: 60%;
+}
+.col-small{
+  width: 40%;
+}
+
