@@ -16,7 +16,7 @@
 }
 
 body {
-  background-color: grey;
+  background-color: white;
 }
 
 .page-header {
@@ -25,8 +25,7 @@ body {
 }
 
 .logo-discord {
-  height: 100px;
-  border: 1px dashed black;
+  
 }
 
 .logo-container {
@@ -37,15 +36,16 @@ body {
     height: 100px;
 }
 
-.nav-bar{
-  
-}
 
 .list-item {
   display: inline-block;
   margin: 20px;
 }
 
-.login-discord{
- 
+.info-square:nth-child(odd){
+  background-color: white;
+}
+
+.info-square:nth-child(even){
+  background-color: grey;
 }
