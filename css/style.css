@@ -53,6 +53,14 @@ body {
     height: 30px;
 }
 
+.logo-discord{
+  border: 1px dashed black;
+}
+
+.login-discord{
+  border: 1px dashed black;
+}
+
 
 .list-item {
   display: inline-block;
