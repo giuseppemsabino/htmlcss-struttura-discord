@@ -62,20 +62,52 @@ body {
   display: inline-block;
   margin: 20px;
 }
-
-
-section:nth-child(odd){
-  background-color: white;
-}
-
-section:nth-child(even){
-  background-color: grey;
-}
-
-section > .container{
+.small-square-section .container {
   display: flex;
   justify-content: center;
 }
+
+.small-square{
+  width: 80%;
+  height: 300px;
+  border: 1px dashed black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: purple;
+}
+
+
+.containersmall{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0 10px;
+  width: 1000px;
+  max-width: 100%;
+}
+
+section:first-child{
+  background-color: darkblue;
+}
+
+section:nth-child(even){
+  background-color: white;
+}
+
+section:nth-child(2n + 3){
+  background-color: grey;
+}
+
+
+.quadri-doppi .container{
+  display: flex;
+  justify-content: center;
+}
+
+.samll-square-section .container{
+  background-color: darkblue;
+}
+
 .col-big{
   width: 60%;
   height: 165px;
