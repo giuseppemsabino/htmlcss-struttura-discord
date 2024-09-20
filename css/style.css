@@ -74,6 +74,7 @@ section:nth-child(even){
 
 section > .container{
   display: flex;
+  justify-content: center;
 }
 .col-big{
   width: 60%;
@@ -92,5 +93,14 @@ section > .container{
   background-color: blue;
 }
 
+.big-square{
+  width: 100%;
+  height: 300px;
+  border: 1px dashed black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: green ;
+
+}
 
 
